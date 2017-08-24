@@ -1,0 +1,17 @@
+{
+  "name": "cross-domain-demo",
+  "version": "1.0.0",
+  "description": "a tutorial for cross-domain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cross",
+    "domain",
+    "tutorial"
+  ],
+  "author": "alienzhou",
+  "license": "ISC",
+  "dependencies": {}
+}
