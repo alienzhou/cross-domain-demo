@@ -14,7 +14,9 @@ router.get('/normal', (req, res, next) => {
 
 router.get('/cors', (req, res, next) => {
     console.log('cors');
-    res.setHeader('Access-Control-Allow-Origin', '*');
+    console.log(req.headers);
+    res.setHeader('Access-Control-Allow-Origin', 'http://127.0.0.1:8085');
+    res.setHeader('Access-Control-Allow-Credentials', true);
     res.json(data);
 });
 
