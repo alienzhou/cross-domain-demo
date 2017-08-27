@@ -1,4 +1,14 @@
 # ajax跨域的三种常用方案
+在myweb与thirdparty目录下分别运行这两个项目
+```
+cd myweb
+npm run start
+```
+```
+cd thirdparty
+npm run start
+```
+
 ## 使用代理（proxy）
 同源政策是浏览器层面的限制。那么，如果不在前端跨域，而将“跨域”的任务交给后端服务，就规避了同源政策。
 
